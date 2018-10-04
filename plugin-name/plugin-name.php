@@ -61,7 +61,7 @@ function pum_@@prefix_autoloader( $class ){
 	$prefix = 'PUM_@@constant_';
 
 	// base directory for the namespace prefix
-	$base_dir = __DIR__ . '/classes/';
+	$base_dir = dirname( __FILE__ ) . '/classes/';
 
 	// does the class use the namespace prefix?
 	$len = strlen( $prefix );
